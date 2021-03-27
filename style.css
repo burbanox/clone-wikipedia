@@ -1,0 +1,39 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+header
+{
+    text-align: center;
+    font-family:  Linux Libertine,Hoefler Text,Georgia,Times New Roman,Times,serif;
+}
+
+header>.main-title
+{
+    margin: 40px 277px 5px;
+}
+
+header .main-title>h1
+{
+    font-size: 2.6rem;
+    font-weight: normal;
+}
+
+header .main-title>h1>span
+{
+    font-size: 3.8rem;
+}
+
+header>.main-title>p
+{
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
