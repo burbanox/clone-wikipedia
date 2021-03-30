@@ -10,6 +10,11 @@ html
     font-size: 62.5%;
 }
 
+a
+{
+    text-decoration: none;
+}
+
 header
 {
     text-align: center;
@@ -37,3 +42,61 @@ header>.main-title>p
     margin-top: 15px;
     font-size: 1.5rem;
 }
+
+main
+{
+    width: auto;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Lato,Helvetica,Arial,sans-serif;
+    margin: 0 auto;
+}
+
+.cover-page
+{
+    width: 546px;
+    display: flex;
+    font-size: 1.6rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.cover-page>img
+{
+    position: absolute;
+    width: 200px;
+    height: 183px;
+    left: 50%;
+    top: 80px;
+    transform: translateX(-50%);
+}
+
+.left-content,.right-content
+{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 50%;
+}
+
+.left-content>div,.right-content>div
+{
+    width: auto;
+}
+
+.left-content a>div,.right-content a>div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #36c;
+    height: 45px;
+    margin-top: 20px;
+    width: auto;
+}
+
+.left-content a>div>span,.right-content a>div>span
+{
+    font-size: 1.3rem;
+    color: #54595d;
+}
+
