@@ -137,3 +137,8 @@ main
 {
     margin-right: 30px;
 }
+
+.container-externo div:active
+{
+    border: 1px solid #36c;
+}
