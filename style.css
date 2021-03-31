@@ -73,13 +73,7 @@ main
 {
     display: flex;
     flex-direction: column;
-    align-content: center;
     width: 50%;
-}
-
-.left-content>div,.right-content>div
-{
-    width: auto;
 }
 
 .left-content a>div,.right-content a>div
@@ -100,3 +94,46 @@ main
     color: #54595d;
 }
 
+.left-content .container-externo:nth-child(2),
+.left-content .container-externo:nth-child(3),
+.left-content .container-externo:nth-child(4)
+{
+    align-self: flex-start;
+}
+
+.left-content .container-externo:nth-child(2)
+{
+    margin-left: 30px;
+}
+
+.left-content .container-externo:nth-child(3)
+{
+    margin-left: 15px;
+}
+
+.left-content .container-externo:nth-child(4)
+{
+    margin-left: 30px;
+}
+
+.right-content .container-externo:nth-child(2),
+.right-content .container-externo:nth-child(3),
+.right-content .container-externo:nth-child(4)
+{
+    align-self: flex-end;
+}
+
+.right-content .container-externo:nth-child(2)
+{
+    margin-right: 30px;
+}
+
+.right-content .container-externo:nth-child(3)
+{
+    margin-right: 15px;
+}
+
+.right-content .container-externo:nth-child(4)
+{
+    margin-right: 30px;
+}
