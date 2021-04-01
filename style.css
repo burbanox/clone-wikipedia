@@ -101,6 +101,14 @@ main
     align-self: flex-start;
 }
 
+.right-content .container-externo:first-child,
+.right-content .container-externo:last-child,
+.left-content .container-externo:first-child,
+.left-content .container-externo:last-child
+{
+    align-self: center;
+}
+
 .left-content .container-externo:nth-child(2)
 {
     margin-left: 30px;
