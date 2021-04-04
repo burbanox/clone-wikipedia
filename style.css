@@ -150,3 +150,97 @@ main
 {
     border: 1px solid #36c;
 }
+
+.idiomas
+{
+    width: 546px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.cuadro-busqueda
+{
+    width: min-content;
+    display: flex;
+    margin: 0 auto;
+    height: 44px;
+    font-size: 1.3rem;
+}
+
+.input-busqueda 
+{
+    width: 394px;
+    height: 100%;
+    border-bottom: 1px solid rgb(162, 169, 177);
+    border-top: 1px solid rgb(162, 169, 177);
+    border-left: 1px solid rgb(162, 169, 177);
+    display: flex;
+}
+
+.input-busqueda:hover
+{
+    border: 1.3px solid rgb(114, 119, 125);
+}
+
+.input-busqueda>input
+{
+    width: 330px;
+    height: 100%;
+    outline: none;
+    border: none;
+}
+
+.input-busqueda:active
+{
+    border: 2px solid rgb(51, 102, 204);
+}
+
+.input-busqueda>.lista
+{
+    width: 64px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.lista>select
+{
+    width: 45px;
+    margin-right: 2.5px;
+    margin-left: 2.5px;
+    height: 30px;
+    border: none;
+    color: #54595d;
+    outline: none;
+}
+
+.lista>select:active
+{
+    border: 1px solid rgb(51, 102, 204);
+}
+
+.button-container
+{
+    width: 56px;
+    height: 100%;
+}
+
+.button-container>button
+{
+    border: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(51, 102, 204);
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button>img
+{
+    width: 20px;
+    height: 20px;
+}
+
