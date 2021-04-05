@@ -249,19 +249,38 @@ button>img
     width: 546px;
     margin: 0 auto;
     margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-button>button
 {
-    display: block;
     font-size: 1.4rem;
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Lato,Helvetica,Arial,sans-serif;
     font-weight: bold;
-    margin: 0 auto;
     width: 266px;
     height: 36px;
     color: #3366cc;
     font-weight: bold;
+    border: 1.5px solid rgb(162, 169, 177);
+    outline: none;
+    cursor: pointer;
+}
+
+.container-button>div
+{
+    width: 72px;
+}
+
+.container-button>div:first-of-type
+{
+    margin-right: 20px;
+}
+
+.container-button>div:last-of-type
+{
+    margin-left: 20px;
 }
 
 
