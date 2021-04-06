@@ -416,3 +416,28 @@ button>img
     color: #54595d;
     font-weight: bold;
 }
+
+footer
+{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Lato,Helvetica,Arial,sans-serif;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #54595d;
+}
+
+footer .link-perfil
+{
+    color: #36c;
+}
+
+footer .link-perfil:hover
+{
+    color: red;
+}
+
+footer .link-perfil:active
+{
+    color: purple;
+}
